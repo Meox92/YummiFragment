@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name">Yummy</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--menu-->
+    <string name="calcola_ricetta">Calculate recipe</string>
+    <string name="ricette_salvate">Saved recipies</string>
+    <string name="legumi_e_cereali">Legumens and Cereals</string>
+    <string name="cuocere_carne">Cook the meat</string>
+    <string name="About">About</string>
+    <string name="Feedback">Feedback</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_calcolo_dosi">CalcoloDosi</string>
+    <string name="title_activity_ricette_salvate">RicetteSalvate</string>
+    <string name="next" />
+    <string name="salva_la_tua_ricetta">Save your recipe</string>
+    <string name="titolo">Title</string>
+    <string name="ric__da_salvare">Recipe to save</string>
+    <string name="annulla">Cancel</string>
+    <string name="eventualinote">Notes</string>
+    <string name="modifica">Edit</string>
+    <string name="elimina">Delete</string>
+    <string name="messaggio_info">Author: Maola Ma\n</string>
+    <string name="feedback">Feedback</string>
+    <string name="richiesta_feedback">Looks like youre using this app for a while, do you like it?</string>
+    <string name="ciao">Hello!</string>
+    <string name="feedback_piace">Would you like to leave a feedback in Google Play Store?</string>
+    <string name="feedback_non_piace">Would you mind tell us what we can improve?</string>
+    <string name="originale">ORIGINAL</string>
+    <string name="mia_ricetta">MY RECIPE</string>
+    <string name="calcola">GO</string>
+    <string name="calcolatore_dosi_tipo">How many people</string>
+    <string name="formato_ricetta">Recipe format</string>
+    <string name="salva">SAVE</string>
+    <string name="reset">RESET</string>
+    <string name="nessuna_ricetta_salvata">You have not yet saved any recipe</string>
+    <string name="note_aggiuntive">NOTES</string>
+    <string name="inserisci_titolo">Insert here the title</string>
+    <string name="conferma">CONFIRM</string>
+    <string name="ricetta_originale">ORIGINAL RECIPE</string>
+    <string name="salvata">SAVED</string>
+    <string name="salvata_il">Saved on</string>
+    <string name="title_activity_about">about</string>
+    <string name="credits">Author: Maola</string>
+    <string name="titolo_non_valido">Insert a title!</string>
+    <string name="no_calcolo">There\'s no recipe yet!</string>
+    <string name="elimina_record">do you really want to delete this record?</string>
+    <string name="non_funziona">Looks like the app cannot calculate your recipe! Check if the format is correct and if there\'s a space between the quantity and the ingredient\n
+        The correct format should be \n\n"100 gr sugar(new line or space)23 Apples"\n
+        Wrong format "100gr sugar23Apples"\n
+    </string>
+
+
+
+
+    <!--Legumi e cereali-->
+    <string name="introduzione">Introduction</string>
+    <string name="legumi_cereali">
+Click on the legume / cereal you are interested in to find out how to cook it and the
+        <b> report WATER/ CHICKS </b>. \ n
+        </string>
+
+    <string name="amaranto">Amaranth</string>
+    <string name="amarant_metodo">- Soak: no\n
+- Water: 2:1 \n
+- Cooking time: 35-40 minutes\n</string>
+    <string name="avena">Oat</string>
+    <string name="avena_metodo">- Soak: no\n
+- Water: 3:1\n
+- Cooking time: 50 minutes\n</string>
+    <string name="bulghur">Bulghur</string>
+    <string name="bulghur__metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 10-15 minutes\n</string>
+    <string name="cous_cous">Cous Cous</string>
+    <string name="cous_cous_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 8-10 minutes\n</string>
+    <string name="farro_decorticato">Farro decorticato(Hulled barley)</string>
+    <string name="farro_decorticato_metodo">- Soak: 9 ore\n
+- Water: 2:1\n
+- Cooking time: 45 minutes\n</string>
+    <string name="farro_perlato">Farro perlato(Pearl barley)</string>
+    <string name="farro_perlato_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 30 minutes\n</string>
+    <string name="grano_saraceno">buckwheat
+</string>
+    <string name="grano_saraceno_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 20 minutes\n</string>
+    <string name="grano_tenero">Wheat
+</string>
+    <string name="grano_tenero_metodo">
+- Soak: 9 ore\n
+- Water: 2:1\n
+- Cooking time: 40 minutes\n</string>
+    <string name="miglio">Millet</string>
+    <string name="miglio_metodo">
+- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 20 minutes\n</string>
+    <string name="orzo_decorticato">Orzo decorticato</string>
+    <string name="orzo_decorticato_metodo">- Soak: 6 ore\n
+- Water: 3:1\n
+- Cooking time: 45 minutes\n
+</string>
+    <string name="orzo_perlato">whole barley
+</string>
+    <string name="orzo_perlato_metodo">- Soak: 9 ore\n
+- Water: 3:1\n
+- Cooking time: 25 minutes\n</string>
+    <string name="quinoa">Quinoa</string>
+    <string name="quinoa_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 15-20 minutes\n</string>
+    <string name="riso_integrale">Whole rice</string>
+    <string name="riso_integrale_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 40 minutes\n</string>
+    <string name="riso">Rice</string>
+    <string name="riso_metodo">- Soak: no\n
+- Water: 1: 1.5\n
+- Cooking time: 18-25 minutes\n</string>
+    <string name="segale">Rye</string>
+    <string name="segale_metodo">- Soak: 12 ore\n
+- Water 3:1\n
+- Cooking time: 50 minutes\n</string>
+
+
+    <!--Cottura carne-->
+    <string name="cottura_carne">
+For the meat,it\'s advisable to have a quick medium high flame, so roast the outside parts and leave the inside ones softer and juicy.\n
+The flesh of
+Pork should always be eaten well cooked due to the risk of cysts tapeworm.\n
+
+To obtain a perfect cooking you can use a kitchen thermometer and measure the INTERNAL temperature of the meat, at its center Of the piece of meat we are cooking.\n
+        40 degree: red meat, rare\n
+        50 degree: red meat, medium/rare\n
+        60 degree: red meat, medium\n
+        65 degree: medium , lamb, liver, duck, game \n
+        70 degree: red meat, well. Coscia e lombata di agnello.\n
+        72 degree: calf, Lamb shoulder, poultry chicken, game, salmon, pig \n
+        74 degree: Boiled beef, offal, poultry, turkey, pharaoh, rabbit, fish \n
+        78 degree: Calf belly, calfskin and pork\n
+        82 degree: Braised beef, damp meats in general \n
+    </string>
+
+</resources>

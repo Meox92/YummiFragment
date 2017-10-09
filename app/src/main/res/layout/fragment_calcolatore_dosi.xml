@@ -1,0 +1,268 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPages"
+        android:paddingBottom="10dp"
+        tools:context="com.example.maola.yummifragment.CalcolatoreDosi">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="6dp">
+
+            <TextView
+                android:id="@+id/titolo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/calcolatore_dosi_tipo"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/ricette_title" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/formato_ricetta" />
+
+            <RadioGroup
+                android:id="@+id/radiogroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rbqntingr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="100 gr di pasta"
+                    android:textColor="@color/text_color"
+                    android:textSize="12sp" />
+
+                <RadioButton
+                    android:id="@+id/rbingrqnt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Pasta 100 gr"
+                    android:textColor="@color/text_color"
+                    android:textSize="12sp" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:background="@drawable/shape_radius_top_both"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/icona_reset"
+                    android:layout_width="35dp"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/icona_x" />
+
+                <TextView
+                    android:id="@+id/editText3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center_horizontal"
+                    android:text="@string/originale"
+                    android:textColor="@color/text_color" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="23dp"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/icona_persone" />
+
+                <EditText
+                    android:id="@+id/nPersoneInit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:textColorLink="@color/col_bordo"
+                    tools:layout_editor_absoluteX="253dp"
+                    tools:layout_editor_absoluteY="-5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ricetta_dosi_iniziali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="55dp">
+
+                <EditText
+                    android:id="@+id/edit_init"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_radius_bottom_both"
+                    android:hint="Inserisci qui la ricetta da calcolare"
+                    android:inputType="textMultiLine"
+                    android:minHeight="128dp"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="5dp" />
+
+                <Button
+                    android:id="@+id/calcola"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_button"
+                    android:ems="8"
+                    android:onClick="split"
+                    android:text="@string/calcola"
+                    android:textColor="@color/text_color" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:background="@drawable/shape_radius_top_both"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal"
+                tools:layout_editor_absoluteX="8dp"
+                tools:layout_editor_absoluteY="8dp">
+
+                <ImageView
+                    android:id="@+id/icona_cuore"
+                    android:layout_width="wrap_content"
+                    android:layout_height="22dp"
+                    android:layout_gravity="center_vertical|fill_horizontal"
+                    android:layout_weight="1"
+                    android:visibility="invisible"
+                    app:srcCompat="@drawable/icona_cuore" />
+
+                <TextView
+                    android:id="@+id/editText7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:text="@string/mia_ricetta"
+                    android:textColor="@color/text_color" />
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="23dp"
+                    android:layout_height="31dp"
+                    android:layout_gravity="center"
+                    app:srcCompat="@drawable/icona_persone" />
+
+                <EditText
+                    android:id="@+id/nPersoneFine"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    tools:layout_editor_absoluteX="253dp"
+                    tools:layout_editor_absoluteY="-5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ricetta_mie_dosi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="249dp">
+
+
+                <EditText
+                    android:id="@+id/edit_fine"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_radius_bottom_both"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:minHeight="100dp"
+                    android:paddingBottom="10dp"
+                    android:paddingEnd="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="5dp" />
+
+                <Button
+                    android:id="@+id/salva"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_button"
+                    android:ems="8"
+                    android:text="@string/salva"
+                    android:textColor="@color/text_color" />
+
+                <Button
+                    android:id="@+id/reset"
+                    style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_button"
+                    android:ems="8"
+                    android:onClick="reset"
+                    android:text="@string/reset"
+                    android:textAlignment="center"
+                    android:textColor="@color/text_color" />
+
+            </LinearLayout>
+
+            <!--<com.google.android.gms.ads.AdView-->
+            <!--android:id="@+id/adView"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--app:adSize="BANNER"-->
+            <!--app:adUnitId="ca-app-pub-7231804271443061/1595985037"></com.google.android.gms.ads.AdView>-->
+
+
+        </LinearLayout>
+
+
+    </FrameLayout>
+</ScrollView>

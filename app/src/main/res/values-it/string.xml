@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Yummi</string>
+
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+
+        <string name="action_settings">Settings</string>
+
+    <string name="calcola_ricetta">Calcola la ricetta</string>
+    <string name="ricette_salvate">Ricette salvate</string>
+    <string name="legumi_e_cereali">Legumi e Cereali</string>
+    <string name="cuocere_carne">Cuocere la carne</string>
+    <string name="About">About</string>
+    <string name="Feedback">Feedback</string>
+
+        <string name="hello_blank_fragment">Hello blank fragment</string>
+        <string name="title_activity_main2">Main2Activity</string>
+        <string name="title_activity_calcolo_dosi">CalcoloDosi</string>
+        <string name="title_activity_ricette_salvate">RicetteSalvate</string>
+        <string name="next" />
+        <string name="salva_la_tua_ricetta">Salva la tua ricetta</string>
+        <string name="titolo">Titolo</string>
+        <string name="ric__da_salvare">Ricetta da salvare</string>
+        <string name="annulla">annulla</string>
+        <string name="eventualinote">Eventuali note</string>
+        <string name="modifica">Modifica</string>
+        <string name="elimina">elimina</string>
+        <string name="messaggio_info">Autore: Maola Ma\n</string>
+        <string name="feedback">Feedback</string>
+        <string name="richiesta_feedback">Sembra che stai usando questa app da un po\' di tempo, ti piace?"</string>
+        <string name="ciao">Ciao</string>
+        <string name="feedback_piace">Ti andrebbe di lasciare una valutazione nel play store?</string>
+        <string name="feedback_non_piace">Vorresti dirci dove possiamo migliorare?</string>
+        <string name="originale">ORIGINALE</string>
+        <string name="mia_ricetta">LA MIA RICETTA</string>
+        <string name="calcola">CALCOLA</string>
+        <string name="calcolatore_dosi_tipo">Per quante persone cucino?</string>
+        <string name="formato_ricetta">Formato ricetta</string>
+        <string name="salva">SALVA</string>
+        <string name="reset">RESET</string>
+        <string name="nessuna_ricetta_salvata">Non hai ancora salvato alcuna ricetta</string>
+        <string name="note_aggiuntive">NOTE AGGIUNTIVE</string>
+        <string name="inserisci_titolo">Inserisci qui il titolo</string>
+        <string name="titolo_non_valido">Inserisci un titolo per salvare!</string>
+        <string name="no_calcolo">Non c\'è nessuna ricetta da salvare, premi su calcola</string>
+        <string name="conferma">CONFERMA</string>
+        <string name="ricetta_originale">RICETTA ORIGINALE</string>
+        <string name="salvata">SALVATA</string>
+        <string name="salvata_il">Salvata il</string>
+        <string name="title_activity_about">about</string>
+        <string name="credits">Author: Maola</string>
+    <string name="elimina_record">Vuoi veramente eliminare questa ricetta?</string>
+    <string name="non_funziona">Sembra che l\'app non stia funzionando. Controlla che il testo sia scritto correttamente e che ci sia un spazio o una riga tra tutte le parole. \n
+        \nCorretto: 100 gr di pasta 12 uova 3 mele\n
+        Errato: 100gr di pasta12uova 3mele
+    </string>
+
+
+
+    <!--Legumi e cereali-->
+        <string name="introduzione">Introduzione</string>
+        <string name="legumi_cereali">
+        Clicca sul legume/cereale che ti interessa per scoprirne le modalità di cottura e il
+        <b>RAPPORTO ACQUA/CHICCHI</b>. \n
+        </string>
+
+        <string name="amaranto">Amaranto</string>
+        <string name="amarant_metodo">- Ammollo: no\n
+- Acqua: 2:1 \n
+- Cottura: 35-40 minuti\n</string>
+        <string name="avena">Avena</string>
+        <string name="avena_metodo">- Ammollo: no\n
+- Acqua: 3:1\n
+- Cottura: 50 minuti\n</string>
+        <string name="bulghur">Bulghur</string>
+        <string name="bulghur__metodo">- Ammollo: no\n
+- Acqua: 2:1\n
+- Cottura: 10-15 minuti\n</string>
+        <string name="cous_cous">Cous Cous</string>
+        <string name="cous_cous_metodo">- Ammollo: no\n
+- Acqua: 2:1\n
+- Cottura: 8-10 minuti\n</string>
+        <string name="farro_decorticato">Farro decorticato</string>
+        <string name="farro_decorticato_metodo">- Ammollo: 9 ore\n
+- Acqua: 2:1\n
+- Cottura: 45 minuti\n</string>
+        <string name="farro_perlato">Farro perlato</string>
+        <string name="farro_perlato_metodo">- Ammollo: no\n
+- Acqua: 2:1\n
+- Cottura: 30 minuti\n</string>
+        <string name="grano_saraceno">Grano saraceno</string>
+        <string name="grano_saraceno_metodo">- Ammollo: no\n
+- Acqua: 2:1\n
+- Cottura: 20 minuti\n</string>
+        <string name="grano_tenero">Grano tenero</string>
+        <string name="grano_tenero_metodo">
+- Ammollo: 9 ore\n
+- Acqua: 2:1\n
+- Cottura: 40 minuti\n</string>
+        <string name="miglio">Miglio</string>
+        <string name="miglio_metodo">MIGLIO
+
+- Ammollo: no\n
+- Acqua: 2:1\n
+- Cottura: 20 minuti\n</string>
+        <string name="orzo_decorticato">Orzo decorticato</string>
+        <string name="orzo_decorticato_metodo">- Ammollo: 6 ore\n
+- Acqua: 3:1\n
+- Cottura: 45 minuti\n
+</string>
+        <string name="orzo_perlato">Orzo perlato</string>
+        <string name="orzo_perlato_metodo">- Ammollo: 9 ore\n
+- Acqua: 3:1\n
+- Cottura: 25 minuti\n</string>
+        <string name="quinoa">Quinoa</string>
+        <string name="quinoa_metodo">- Ammollo: no\n
+- Acqua: 2:1\n
+- Cottura: 15-20 minuti\n</string>
+        <string name="riso_integrale">Riso integrale</string>
+        <string name="riso_integrale_metodo">- Ammollo: no\n
+- Acqua: 2:1\n
+- Cottura: 40 minuti\n</string>
+        <string name="riso">Riso</string>
+        <string name="riso_metodo">- Ammollo: no\n
+- Acqua: 1: 1.5\n
+- Cottura: 18-25 minuti\n</string>
+        <string name="segale">Segale</string>
+        <string name="segale_metodo">- Ammollo: 12 ore\n
+- Acqua 3:1\n
+- Cottura: 50 minuti\n</string>
+
+
+        <!--Cottura carne-->
+        <string name="cottura_carne">
+        Per la carne si consiglia una cottura rapida a fiamma medio alta, in modo da arrostire le parti esterne e lasciare quelle interne
+        più morbide e succose.\n
+        La carne di maiale dovrebbe sempre consumata ben cotta a causa del rischio di cisti di tenia.\n
+        \n
+        Per ottenere una cottura perfetta si può usare un termometro da cucina e misurare la temperatura INTERNA della carne, all\'incirca al centro
+        del pezzo di carne che stiamo cuocendo.\n
+        \n
+        40 gradi: carne rossa, cottura au bleu\n
+        50 gradi: carne rossa, cottura al sangue\n
+        60 gradi: carne rossa, cottura al punto\n
+        65 gradi: cottura al punto per coscia e lombata di agnello, fegato, anatra, selvaggina\n
+        70 gradi: carne rossa, ben cotta. Coscia e lombata di agnello.\n
+        72 gradi: tagli di prima categoria del vitello, spalla di agnello, petto di pollame, selvaggina, salmone, suino\n
+        74 gradi: bollito di manzo, frattaglie, pollame, tacchino, faraona, coniglio, pesce\n
+        78 gradi: pancia di vitello, stinco di vitello e di maiale\n
+        82 gradi: brasato di manzo, carni in umido in genere\n
+    </string>
+
+    </resources>

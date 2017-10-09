@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/activity">
+        <item
+            android:id="@+id/Calcolo_Dosi"
+            android:icon="@drawable/icona_persone"
+            android:title="@string/calcola_ricetta" />
+        <item
+            android:id="@+id/Ricette_salvate"
+            android:icon="@drawable/icona_cuore"
+            android:title="@string/ricette_salvate" />
+    </group>
+
+
+    <group android:id="@+id/consigli"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/legumi_cereali"
+            android:icon="@drawable/mais"
+            android:title="@string/legumi_e_cereali" />
+        <item
+            android:id="@+id/cottura_carne"
+            android:icon="@drawable/carne"
+            android:title="@string/cuocere_carne" />
+
+    </group>
+
+    <group android:id="@+id/info"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/About" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback"
+            android:title="@string/feedback" />
+    </group>
+
+</menu>
+
+

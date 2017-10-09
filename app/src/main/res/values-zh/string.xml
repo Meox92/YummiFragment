@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Yummi</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!--menu-->
+    <string name="calcola_ricetta">计算食谱</string>
+    <string name="ricette_salvate">保存食谱</string>
+    <string name="legumi_e_cereali">Legumens and Cereals英语</string>
+    <string name="cuocere_carne">Cook the meat英语</string>
+    <string name="About">About</string>
+    <string name="Feedback">反馈</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_calcolo_dosi">CalcoloDosi</string>
+    <string name="title_activity_ricette_salvate">RicetteSalvate</string>
+    <string name="salva_la_tua_ricetta">保存我的食谱</string>
+    <string name="titolo">标题</string>
+    <string name="ric__da_salvare">我的食谱</string>
+    <string name="annulla">取消</string>
+    <string name="eventualinote">便签</string>
+    <string name="modifica">修改</string>
+    <string name="elimina">删除</string>
+    <string name="messaggio_info">作者: Maola Ma\n</string>
+    <string name="feedback">反馈</string>
+    <string name="feedback_piace">好用请帮我点赞 </string>
+    <string name="richiesta_feedback">这软件好用吗</string>
+    <string name="ciao">你好</string>
+    <string name="feedback_non_piace">为什么不喜欢? 请回馈</string>
+    <string name="originale">初始成分</string>
+    <string name="mia_ricetta">我的食谱</string>
+    <string name="calcola">计算</string>
+    <string name="calcolatore_dosi_tipo">几个人吃？</string>
+    <string name="formato_ricetta">Recipe format</string>
+    <string name="salva">保存</string>
+    <string name="reset">删除</string>
+    <string name="nessuna_ricetta_salvata">您没有保存任何食谱</string>
+    <string name="note_aggiuntive">便签</string>
+    <string name="inserisci_titolo">Insert here the title</string>
+    <string name="conferma">确定</string>
+    <string name="ricetta_originale">食谱</string>
+    <string name="salvata">保存</string>
+    <string name="salvata_il">保存</string>
+    <string name="titolo_non_valido">输入标题!</string>
+    <string name="no_calcolo">你有没有配方保存!</string>
+
+    <string name="title_activity_about">信息</string>
+    <string name="credits">作者: Maola</string>
+    <string name="elimina_record">确定删除?</string>
+    <string name="non_funziona">Looks like the app cannot calculate your recipe! Check if the format is correct and if there\'s a space between the quantity and the ingredient\n
+        The correct format should be "100 gr sugar(new line or space)23 Apples"\n
+        Wrong format "100gr sugar23Apples"\n
+    </string>
+
+
+
+
+    <!--Legumi e cereali-->
+    <string name="introduzione">介绍</string>
+    <!--Legumi e cereali-->
+    <string name="legumi_cereali">
+Click on the legume / cereal you are interested in to find out how to cook it and the
+        <b> report WATER/ CHICKS </b>. \ n
+        </string>
+
+    <string name="amaranto">Amaranth</string>
+    <string name="amarant_metodo">- Soak: no\n
+- Water: 2:1 \n
+- Cooking time: 35-40 minutes\n</string>
+    <string name="avena">Oat</string>
+    <string name="avena_metodo">- Soak: no\n
+- Water: 3:1\n
+- Cooking time: 50 minutes\n</string>
+    <string name="bulghur">Bulghur</string>
+    <string name="bulghur__metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 10-15 minutes\n</string>
+    <string name="cous_cous">Cous Cous</string>
+    <string name="cous_cous_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 8-10 minutes\n</string>
+    <string name="farro_decorticato">Farro decorticato(Hulled barley)</string>
+    <string name="farro_decorticato_metodo">- Soak: 9 ore\n
+- Water: 2:1\n
+- Cooking time: 45 minutes\n</string>
+    <string name="farro_perlato">Farro perlato(Pearl barley)</string>
+    <string name="farro_perlato_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 30 minutes\n</string>
+    <string name="grano_saraceno">buckwheat
+</string>
+    <string name="grano_saraceno_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 20 minutes\n</string>
+    <string name="grano_tenero">Wheat
+</string>
+    <string name="grano_tenero_metodo">
+- Soak: 9 ore\n
+- Water: 2:1\n
+- Cooking time: 40 minutes\n</string>
+    <string name="miglio">Millet</string>
+    <string name="miglio_metodo">
+- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 20 minutes\n</string>
+    <string name="orzo_decorticato">Orzo decorticato</string>
+    <string name="orzo_decorticato_metodo">- Soak: 6 ore\n
+- Water: 3:1\n
+- Cooking time: 45 minutes\n
+</string>
+    <string name="orzo_perlato">whole barley
+</string>
+    <string name="orzo_perlato_metodo">- Soak: 9 ore\n
+- Water: 3:1\n
+- Cooking time: 25 minutes\n</string>
+    <string name="quinoa">Quinoa</string>
+    <string name="quinoa_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 15-20 minutes\n</string>
+    <string name="riso_integrale">Whole rice</string>
+    <string name="riso_integrale_metodo">- Soak: no\n
+- Water: 2:1\n
+- Cooking time: 40 minutes\n</string>
+    <string name="riso">Rice</string>
+    <string name="riso_metodo">- Soak: no\n
+- Water: 1: 1.5\n
+- Cooking time: 18-25 minutes\n</string>
+    <string name="segale">Rye</string>
+    <string name="segale_metodo">- Soak: 12 ore\n
+- Water 3:1\n
+- Cooking time: 50 minutes\n</string>
+
+
+    <!--Cottura carne-->
+    <string name="cottura_carne">
+For the meat,it\'s advisable to have a quick medium high flame, so roast the outside parts and leave the inside ones softer and juicy.\n
+The flesh of
+Pork should always be eaten well cooked due to the risk of cysts tapeworm.\n
+
+To obtain a perfect cooking you can use a kitchen thermometer and measure the INTERNAL temperature of the meat, at its center Of the piece of meat we are cooking.\n
+        40 gradi: red meat, rare\n
+        50 gradi: red meat, medium/rare\n
+        60 gradi: red meat, medium\n
+        65 gradi: medium , lamb, liver, duck, game \n
+        70 gradi: red meat, well. Coscia e lombata di agnello.\n
+        72 gradi: calf, Lamb shoulder, poultry chicken, game, salmon, pig \n
+        74 gradi: Boiled beef, offal, poultry, turkey, pharaoh, rabbit, fish \n
+        78 gradi: Calf belly, calfskin and pork\n
+        82 gradi: Braised beef, damp meats in general \n
+    </string>
+
+</resources>

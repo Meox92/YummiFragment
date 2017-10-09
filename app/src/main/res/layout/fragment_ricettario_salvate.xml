@@ -1,0 +1,189 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        tools:context="com.example.maola.yummifragment.Ricettario_salvate">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/sfondo_ricette"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                android:weightSum="1"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:id="@+id/ricette_people"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_pers_time_type"
+                    tools:text="@string/salvata_il" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPages"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/ricette_salvate_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Titolo"
+                        android:textSize="@dimen/ricette_title" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPages"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/ricette_salvate_textOriginale"
+                        style="@style/Custom_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_procedura_ingredienti"
+                        android:clickable="true"
+                        android:elegantTextHeight="false"
+                        android:paddingEnd="40dp"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:paddingStart="40dp"
+                        android:text="@string/originale" />
+
+                    <Button
+                        android:id="@+id/ricette_salvate_textSalvata"
+                        style="@style/Custom_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/shape_procedura_ingredienti"
+                        android:clickable="true"
+                        android:paddingEnd="40dp"
+                        android:paddingLeft="40dp"
+                        android:paddingRight="40dp"
+                        android:paddingStart="40dp"
+                        android:text="@string/salvata" />
+
+                    <ImageView
+                        android:id="@+id/icona_persone"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="center"
+                        android:contentDescription="Peolpe_icon"
+                        app:srcCompat="@drawable/icona_persone" />
+
+                    <TextView
+                        android:id="@+id/ricettario_persone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ricette_salvate_Testo_da_modificare"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rec_all_border_black"
+                    android:enabled="true"
+                    android:minHeight="65dp"
+                    android:paddingBottom="25dp"
+                    android:paddingEnd="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/ricette_salvate_testo_standard_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="@string/eventualinote"
+                    android:textSize="18sp"
+                    android:visibility="invisible" />
+
+                <TextView
+                    android:id="@+id/ricette_salvate_tw_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_rec_all_border_black"
+                    android:paddingBottom="50dp"
+                    android:paddingEnd="5dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingStart="5dp"
+                    android:paddingTop="5dp"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <Button
+                    android:id="@+id/ricette_salvate_btn_modifica"
+                    style="@style/Custom_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_button"
+                    android:text="@string/modifica"
+                    android:textCursorDrawable="@android:drawable/ic_menu_edit" />
+
+                <Button
+                    android:id="@+id/ricette_salvate_btn_elimina"
+                    style="@style/Custom_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_button_delete"
+                    android:text="@string/elimina"
+                    android:textCursorDrawable="@android:drawable/ic_menu_edit" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+</ScrollView>

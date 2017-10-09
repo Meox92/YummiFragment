@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#443228</color>
+    <color name="colorAccent">#9B6C45</color>
+    <color name="color_icon">#000000</color>
+    <color name="colorPages">#fafafa</color>
+    <color name="col_riempimento_titoli">#E5CEC1</color>
+    <color name="col_riempimento_bottoni">#E5CEC1</color>
+    <color name="col_riempimento_bottoni_delete">#D75A4A</color>
+    <color name="col_bordo">#9B6C45</color>
+    <color name="text_color">#443228</color>
+    <color name="background">#F7F6F5</color>
+    <color name="toolbar">#ffffff</color>
+
+
+
+
+</resources>

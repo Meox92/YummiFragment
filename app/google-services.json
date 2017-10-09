@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "259096113548",
+    "firebase_url": "https://yummifragment.firebaseio.com",
+    "project_id": "yummifragment",
+    "storage_bucket": "yummifragment.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259096113548:android:fd0f602a420a19d2",
+        "android_client_info": {
+          "package_name": "com.example.maola.yummifragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259096113548-olesm1r7j0finvkejan9pkhbkdtonsr8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.maola.yummifragment",
+            "certificate_hash": "f0f48e5748e80ebf716ece7ea9f8a0a0499bc59a"
+          }
+        },
+        {
+          "client_id": "259096113548-km8mqv2mss9imb4ql85h9dk0hi10htu9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD438dbQwIyAS0k0eNvInx9V2E_xdoBKp8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259096113548-km8mqv2mss9imb4ql85h9dk0hi10htu9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

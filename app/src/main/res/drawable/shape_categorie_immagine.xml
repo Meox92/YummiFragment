@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval"
+    >
+
+    <!--Cerchio che sta dietro alle icone della schermata Categorie Ricette-->
+    <padding
+        android:left="1dp"
+        android:top="1dp"
+        android:right="1dp"
+        android:bottom="1dp" />
+    <size
+        android:width="15dp"
+        android:height="15dp" />
+    <solid
+        android:color="#ffffff" />
+    <stroke
+        android:width="3px"
+        android:color="#000000"
+        android:dashWidth="1dp"
+        android:dashGap="0dp" />
+</shape>

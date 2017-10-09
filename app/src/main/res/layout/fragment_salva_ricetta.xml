@@ -1,0 +1,163 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:background="#FFFFFF"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        tools:context="com.example.maola.yummifragment.SalvaRicetta">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:background="@color/colorPages"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:text="@string/salva_la_tua_ricetta"
+                android:textAppearance="@style/TextAppearance.AppCompat"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/ricette_title" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/Custom_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_radius_top_both"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:minHeight="30dp"
+                    android:text="@string/titolo"
+                    android:textAppearance="@style/Custom_textView" />
+
+                <EditText
+                    android:id="@+id/salva_ricette_titolo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rec_all_border_black"
+                    android:ems="10"
+                    android:hint="@string/inserisci_titolo"
+                    android:inputType="textPersonName"
+                    android:padding="10dp" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    style="@style/Custom_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_brown_rectangole_all_borders"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/ric__da_salvare" />
+
+                <EditText
+                    android:id="@+id/salva_ricette_corpo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rec_all_border_black"
+                    android:ems="10"
+                    android:inputType="textMultiLine"
+                    android:padding="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/Custom_textView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_brown_rectangole_all_borders"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:padding="5dp"
+                    android:text="@string/note_aggiuntive" />
+
+                <EditText
+                    android:id="@+id/salva_ricette_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_rec_all_border_black"
+                    android:ems="10"
+                    android:hint="Commenti(opzionale)"
+                    android:inputType="textPersonName"
+                    android:minHeight="65dp"
+                    android:padding="10dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/conferma"
+                    style="@style/Custom_textView"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_button"
+                    android:text="@string/conferma"
+                    android:textAppearance="@style/Custom_textView" />
+
+                <Button
+                    android:id="@+id/annulla"
+                    style="@style/Custom_textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_button"
+                    android:text="@string/annulla"
+                    android:textAppearance="@style/Custom_textView" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView8"
+                style="@style/Custom_textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_brown_rectangole_all_borders"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="@string/ricetta_originale" />
+
+            <TextView
+                android:id="@+id/salva_ricette_originale"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_radius_bottom_both"
+                android:gravity="center_horizontal"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+    </FrameLayout>
+</ScrollView>
+

@@ -1,0 +1,11 @@
+[core]
+	bare = true
+	repositoryformatversion = 0
+	filemode = false
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Meox92/YummiFragment.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[fetch]
+	prune = true
